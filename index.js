@@ -141,6 +141,11 @@ module.exports = function (sails) {
         // Expose a reference to `hook.models` as `sails.models`
         sails.models = sails.hooks.orm.models;
       }
+      if (!sails.hooks.orm.systemModels) {
+        sails.hooks.orm.systemModels = {};
+        // Expose a reference to `hook.models` as `sails.models`
+        sails.systemModels = sails.hooks.orm.systemModels;
+      }
       if (!sails.hooks.orm.adapters) {
         sails.hooks.orm.adapters = {};
         // Expose a reference to `hook.adapters` as `sails.adapters`
