@@ -33,7 +33,7 @@
     "parley": "^3.3.2",
     "prompt": "0.2.14",
     "sails-disk": "^1.1.0",
-    "waterline": "^0.14.0-0",
+    "waterline": "git+https://michael-tomala:94dde58b4f917cfa5bb1871f21602324032d32f1@github.com/lama-media/waterline.git#master",
     "waterline-utils": "^1.0.0"
   },
   "sails": {
