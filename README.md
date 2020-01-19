@@ -1,7 +1,5 @@
 # sails-hook-orm
 
-FIX
-
 Implements support for Waterline ORM in Sails.
 
 > This is a core hook in the Sails.js framework.  You can override or disable it using your sailsrc file or environment variables.  See [Concepts > Configuration](http://sailsjs.com/docs/concepts/configuration) for more information.
