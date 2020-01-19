@@ -208,7 +208,9 @@ module.exports = function (sails) {
 
 
     /**
+     *
      * sails.hooks.orm.reload()
+     *
      */
     reload: function (next) {
       return reload(sails.hooks.orm, sails, next);
